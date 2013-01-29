@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650D917116B77B4A008D7EA2 /* XYZPerson+XYZAdditionalPersonProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 650D917016B77B4A008D7EA2 /* XYZPerson+XYZAdditionalPersonProperties.m */; };
 		65B3170316B3CAE50023A32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B3170216B3CAE50023A32E /* Foundation.framework */; };
 		65B3170616B3CAE50023A32E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B3170516B3CAE50023A32E /* main.m */; };
 		65B3170A16B3CAE50023A32E /* person_demo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 65B3170916B3CAE50023A32E /* person_demo.1 */; };
+		65B3171216B3CB490023A32E /* XYZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B3171116B3CB490023A32E /* XYZPerson.m */; };
+		65B3171516B3D80C0023A32E /* XYZShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B3171416B3D80C0023A32E /* XYZShoutingPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +29,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		650D916F16B77B4A008D7EA2 /* XYZPerson+XYZAdditionalPersonProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XYZPerson+XYZAdditionalPersonProperties.h"; sourceTree = "<group>"; };
+		650D917016B77B4A008D7EA2 /* XYZPerson+XYZAdditionalPersonProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XYZPerson+XYZAdditionalPersonProperties.m"; sourceTree = "<group>"; };
 		65B316FE16B3CAE50023A32E /* person_demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = person_demo; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B3170216B3CAE50023A32E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65B3170516B3CAE50023A32E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65B3170816B3CAE50023A32E /* person_demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "person_demo-Prefix.pch"; sourceTree = "<group>"; };
 		65B3170916B3CAE50023A32E /* person_demo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = person_demo.1; sourceTree = "<group>"; };
+		65B3171016B3CB490023A32E /* XYZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPerson.h; sourceTree = "<group>"; };
+		65B3171116B3CB490023A32E /* XYZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPerson.m; sourceTree = "<group>"; };
+		65B3171316B3D80C0023A32E /* XYZShoutingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZShoutingPerson.h; sourceTree = "<group>"; };
+		65B3171416B3D80C0023A32E /* XYZShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZShoutingPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,12 @@
 			isa = PBXGroup;
 			children = (
 				65B3170516B3CAE50023A32E /* main.m */,
+				65B3171016B3CB490023A32E /* XYZPerson.h */,
+				65B3171116B3CB490023A32E /* XYZPerson.m */,
+				65B3171316B3D80C0023A32E /* XYZShoutingPerson.h */,
+				65B3171416B3D80C0023A32E /* XYZShoutingPerson.m */,
+				650D916F16B77B4A008D7EA2 /* XYZPerson+XYZAdditionalPersonProperties.h */,
+				650D917016B77B4A008D7EA2 /* XYZPerson+XYZAdditionalPersonProperties.m */,
 				65B3170916B3CAE50023A32E /* person_demo.1 */,
 				65B3170716B3CAE50023A32E /* Supporting Files */,
 			);
@@ -140,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B3170616B3CAE50023A32E /* main.m in Sources */,
+				65B3171216B3CB490023A32E /* XYZPerson.m in Sources */,
+				65B3171516B3D80C0023A32E /* XYZShoutingPerson.m in Sources */,
+				650D917116B77B4A008D7EA2 /* XYZPerson+XYZAdditionalPersonProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +254,7 @@
 				65B3170F16B3CAE50023A32E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
